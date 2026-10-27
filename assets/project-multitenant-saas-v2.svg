@@ -2,20 +2,20 @@
   <title id="p4-t">Musicaana: Spotify playlists with full-track YouTube playback.</title>
   <defs>
     <linearGradient id="p4-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0C0C0E"/><stop offset="1" stop-color="#050505"/>
+      <stop offset="0" stop-color="#0A1A38"/><stop offset="1" stop-color="#061024"/>
     </linearGradient>
     <radialGradient id="p4-glow" cx="82%" cy="30%" r="55%">
-      <stop offset="0" stop-color="#5F5F68" stop-opacity=".7"/><stop offset="1" stop-color="#34343A" stop-opacity="0"/>
+      <stop offset="0" stop-color="#2F6FC0" stop-opacity=".7"/><stop offset="1" stop-color="#1E4A8A" stop-opacity="0"/>
     </radialGradient>
     <pattern id="p4-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#8E8E98" stroke-opacity=".07"/>
+      <path d="M28 0H0V28" fill="none" stroke="#6FA8E8" stroke-opacity=".07"/>
     </pattern>
     <filter id="p4-glowf" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="p4-clip"><rect width="1200" height="370" rx="18"/></clipPath>
     <linearGradient id="p4-trace" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F4F4F6"/><stop offset=".45" stop-color="#CFCFD6"/><stop offset="1" stop-color="#8E8E98" stop-opacity="0"/>
+      <stop offset="0" stop-color="#EEF5FF"/><stop offset=".45" stop-color="#A9CDF5"/><stop offset="1" stop-color="#6FA8E8" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <style>
@@ -39,42 +39,42 @@
     <rect x="720" width="480" height="370" fill="url(#p4-grid)"/>
     <rect width="1200" height="370" fill="url(#p4-glow)"/>
     <g class="p4-in p4-d1">
-      <text class="p4-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#8E8E98">04 · WEB APP · SPOTIFY · YOUTUBE</text>
-      <text class="p4-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F4F4F6">Musicaana</text>
-      <text class="p4-sans" x="56" y="166" font-size="17" fill="#A9A9B1">Spotify playlists with full-track YouTube playback.</text>
-      <text class="p4-mono" x="56" y="200" font-size="12.5" fill="#CFCFD6"><tspan fill="#8E8E98">BUILT ›</tspan> OAuth 2.0 with PKCE; falls back to Spotify previews when needed</text>
-      <line class="p4-draw" x1="56" y1="226" x2="680" y2="226" stroke="#8E8E98" stroke-opacity=".3"/>
-    <g transform="translate(56 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F4F4F6">2</text><text class="p4-sans" y="24" font-size="12.5" fill="#A9A9B1">APIs combined</text></g>
-    <g transform="translate(261 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F4F4F6">PKCE</text><text class="p4-sans" y="24" font-size="12.5" fill="#A9A9B1">secure OAuth 2.0 login</text></g>
-    <g transform="translate(466 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#F4F4F6">Mobile</text><text class="p4-sans" y="24" font-size="12.5" fill="#A9A9B1">responsive on all devices</text></g>
-      <g class="p4-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="94" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p4-mono" x="103" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">TypeScript</text></g><g class="p4-chip" style="animation-delay:1.12s"><rect x="158.5" y="314" width="101" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p4-mono" x="209" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">Spotify API</text></g><g class="p4-chip" style="animation-delay:1.24s"><rect x="268" y="314" width="101" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p4-mono" x="318.5" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">YouTube API</text></g><g class="p4-chip" style="animation-delay:1.36s"><rect x="377.5" y="314" width="94" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p4-mono" x="424.5" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">OAuth PKCE</text></g><g class="p4-chip" style="animation-delay:1.48s"><rect x="480" y="314" width="73" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p4-mono" x="516.5" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">Netlify</text></g>
+      <text class="p4-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#6FA8E8">04 · WEB APP · SPOTIFY · YOUTUBE</text>
+      <text class="p4-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#EEF5FF">Musicaana</text>
+      <text class="p4-sans" x="56" y="166" font-size="17" fill="#9BB3D4">Spotify playlists with full-track YouTube playback.</text>
+      <text class="p4-mono" x="56" y="200" font-size="12.5" fill="#A9CDF5"><tspan fill="#6FA8E8">BUILT ›</tspan> OAuth 2.0 with PKCE; falls back to Spotify previews when needed</text>
+      <line class="p4-draw" x1="56" y1="226" x2="680" y2="226" stroke="#6FA8E8" stroke-opacity=".3"/>
+    <g transform="translate(56 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#EEF5FF">2</text><text class="p4-sans" y="24" font-size="12.5" fill="#9BB3D4">APIs combined</text></g>
+    <g transform="translate(261 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#EEF5FF">PKCE</text><text class="p4-sans" y="24" font-size="12.5" fill="#9BB3D4">secure OAuth 2.0 login</text></g>
+    <g transform="translate(466 266)"><text class="p4-serif" font-size="34" font-weight="300" fill="#EEF5FF">Mobile</text><text class="p4-sans" y="24" font-size="12.5" fill="#9BB3D4">responsive on all devices</text></g>
+      <g class="p4-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="94" height="26" rx="13" fill="#102650" stroke="#6FA8E8" stroke-opacity=".35"/><text class="p4-mono" x="103" y="331" text-anchor="middle" font-size="11.5" fill="#A9CDF5">TypeScript</text></g><g class="p4-chip" style="animation-delay:1.12s"><rect x="158.5" y="314" width="101" height="26" rx="13" fill="#102650" stroke="#6FA8E8" stroke-opacity=".35"/><text class="p4-mono" x="209" y="331" text-anchor="middle" font-size="11.5" fill="#A9CDF5">Spotify API</text></g><g class="p4-chip" style="animation-delay:1.24s"><rect x="268" y="314" width="101" height="26" rx="13" fill="#102650" stroke="#6FA8E8" stroke-opacity=".35"/><text class="p4-mono" x="318.5" y="331" text-anchor="middle" font-size="11.5" fill="#A9CDF5">YouTube API</text></g><g class="p4-chip" style="animation-delay:1.36s"><rect x="377.5" y="314" width="94" height="26" rx="13" fill="#102650" stroke="#6FA8E8" stroke-opacity=".35"/><text class="p4-mono" x="424.5" y="331" text-anchor="middle" font-size="11.5" fill="#A9CDF5">OAuth PKCE</text></g><g class="p4-chip" style="animation-delay:1.48s"><rect x="480" y="314" width="73" height="26" rx="13" fill="#102650" stroke="#6FA8E8" stroke-opacity=".35"/><text class="p4-mono" x="516.5" y="331" text-anchor="middle" font-size="11.5" fill="#A9CDF5">Netlify</text></g>
     </g>
     <g class="p4-in p4-d2"><g transform="translate(0 35)">
       <g transform="translate(860 30)">
         <g transform="translate(0 200)">
           <animateTransform attributeName="transform" type="translate" values="0 200; 0 200; 0 200" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
-          <path d="M0 0 L120 -46 L280 -46 L160 0 Z" fill="#34343A" fill-opacity=".92" stroke="#CFCFD6" stroke-opacity=".7" stroke-dasharray="5 4"/>
-          <text class="p4-mono" x="96" y="-17" font-size="10.5" fill="#F4F4F6" transform="skewX(-38) translate(14 0)">Spotify account</text>
+          <path d="M0 0 L120 -46 L280 -46 L160 0 Z" fill="#1E4A8A" fill-opacity=".92" stroke="#A9CDF5" stroke-opacity=".7" stroke-dasharray="5 4"/>
+          <text class="p4-mono" x="96" y="-17" font-size="10.5" fill="#EEF5FF" transform="skewX(-38) translate(14 0)">Spotify account</text>
         </g>
         <g transform="translate(0 158)">
           <animateTransform attributeName="transform" type="translate" values="0 158; 0 152; 0 158" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
-          <path d="M0 0 L120 -46 L280 -46 L160 0 Z" fill="#17171A" fill-opacity=".92" stroke="#8E8E98" stroke-opacity=".45" />
-          <text class="p4-mono" x="96" y="-17" font-size="10.5" fill="#F4F4F6" transform="skewX(-38) translate(14 0)">playlists</text>
+          <path d="M0 0 L120 -46 L280 -46 L160 0 Z" fill="#102650" fill-opacity=".92" stroke="#6FA8E8" stroke-opacity=".45" />
+          <text class="p4-mono" x="96" y="-17" font-size="10.5" fill="#EEF5FF" transform="skewX(-38) translate(14 0)">playlists</text>
         </g>
         <g transform="translate(0 116)">
           <animateTransform attributeName="transform" type="translate" values="0 116; 0 104; 0 116" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
-          <path d="M0 0 L120 -46 L280 -46 L160 0 Z" fill="#17171A" fill-opacity=".92" stroke="#8E8E98" stroke-opacity=".45" />
-          <text class="p4-mono" x="96" y="-17" font-size="10.5" fill="#F4F4F6" transform="skewX(-38) translate(14 0)">recent tracks</text>
+          <path d="M0 0 L120 -46 L280 -46 L160 0 Z" fill="#102650" fill-opacity=".92" stroke="#6FA8E8" stroke-opacity=".45" />
+          <text class="p4-mono" x="96" y="-17" font-size="10.5" fill="#EEF5FF" transform="skewX(-38) translate(14 0)">recent tracks</text>
         </g>
         <g transform="translate(0 74)">
           <animateTransform attributeName="transform" type="translate" values="0 74; 0 56; 0 74" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1; .45 0 .55 1"/>
-          <path d="M0 0 L120 -46 L280 -46 L160 0 Z" fill="#17171A" fill-opacity=".92" stroke="#8E8E98" stroke-opacity=".45" />
-          <text class="p4-mono" x="96" y="-17" font-size="10.5" fill="#F4F4F6" transform="skewX(-38) translate(14 0)">profile</text>
+          <path d="M0 0 L120 -46 L280 -46 L160 0 Z" fill="#102650" fill-opacity=".92" stroke="#6FA8E8" stroke-opacity=".45" />
+          <text class="p4-mono" x="96" y="-17" font-size="10.5" fill="#EEF5FF" transform="skewX(-38) translate(14 0)">profile</text>
         </g>
       </g>
-      <text class="p4-mono" x="1176" y="270" text-anchor="end" font-size="10.5" letter-spacing="1.5" fill="#A9A9B1">OAUTH 2.0 · PKCE · YOUTUBE PLAYBACK</text>
+      <text class="p4-mono" x="1176" y="270" text-anchor="end" font-size="10.5" letter-spacing="1.5" fill="#9BB3D4">OAUTH 2.0 · PKCE · YOUTUBE PLAYBACK</text>
     </g></g>
-    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#8E8E98" stroke-opacity=".2"/>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#6FA8E8" stroke-opacity=".2"/>
     <rect class="p4-trace" style="animation-delay:-5.1s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p4-trace)" stroke-width="1.6" stroke-linecap="round"/>
   </g>
 </svg>
