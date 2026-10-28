@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p3-t">
+  <title id="p3-t">StreamForge: a YouTube media downloader with real progress.</title>
+  <defs>
+    <linearGradient id="p3-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C0C0E"/><stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="p3-glow" cx="82%" cy="30%" r="55%">
+      <stop offset="0" stop-color="#5F5F68" stop-opacity=".7"/><stop offset="1" stop-color="#34343A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="p3-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#8E8E98" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="p3-glowf" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="p3-clip"><rect width="1200" height="370" rx="18"/></clipPath>
+    <linearGradient id="p3-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4F4F6"/><stop offset=".45" stop-color="#CFCFD6"/><stop offset="1" stop-color="#8E8E98" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .p3-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .p3-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p3-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .p3-in { animation: p3-in 1.2s cubic-bezier(.16,1,.3,1) both; }
+    .p3-d1 { animation-delay: .15s; } .p3-d2 { animation-delay: .4s; }
+    .p3-chip { animation: p3-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    @keyframes p3-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .p3-draw { stroke-dasharray: 600; stroke-dashoffset: 600; animation: p3-draw 2s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    @keyframes p3-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes p3-draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .p3-in, .p3-chip { animation: none; } .p3-draw { animation: none; stroke-dashoffset: 0; } }
+    .p3-trace { stroke-dasharray: 564 3136; stroke-dashoffset: 3700; animation: p3-trace 7s linear infinite; }
+    @keyframes p3-trace { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .p3-trace { display: none; } }
+  </style>
+  <g clip-path="url(#p3-clip)">
+    <rect width="1200" height="370" fill="url(#p3-bg)"/>
+    <rect x="720" width="480" height="370" fill="url(#p3-grid)"/>
+    <rect width="1200" height="370" fill="url(#p3-glow)"/>
+    <g class="p3-in p3-d1">
+      <text class="p3-mono" x="56" y="62" font-size="12" letter-spacing="2.6" fill="#8E8E98">03 · WEB APP · FASTAPI · REACT</text>
+      <text class="p3-serif" x="54" y="126" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F4F4F6">StreamForge<tspan class="p3-serif" font-size="22" font-style="italic" fill="#CFCFD6" dx="14">YouTube downloader</tspan></text>
+      <text class="p3-sans" x="56" y="166" font-size="17" fill="#A9A9B1">A high-fidelity YouTube media downloader with real progress.</text>
+      <text class="p3-mono" x="56" y="200" font-size="12.5" fill="#CFCFD6"><tspan fill="#8E8E98">BUILT ›</tspan> FastAPI + yt-dlp + FFmpeg backend, React + Tailwind frontend, Docker-ready</text>
+      <line class="p3-draw" x1="56" y1="226" x2="680" y2="226" stroke="#8E8E98" stroke-opacity=".3"/>
+    <g transform="translate(56 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#F4F4F6">4K</text><text class="p3-sans" y="24" font-size="12.5" fill="#A9A9B1">max stream quality</text></g>
+    <g transform="translate(261 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#F4F4F6">Live</text><text class="p3-sans" y="24" font-size="12.5" fill="#A9A9B1">real progress, not simulated</text></g>
+    <g transform="translate(466 266)"><text class="p3-serif" font-size="34" font-weight="300" fill="#F4F4F6">Docker</text><text class="p3-sans" y="24" font-size="12.5" fill="#A9A9B1">multi-stage, Render-ready</text></g>
+      <g class="p3-chip" style="animation-delay:1.00s"><rect x="56" y="314" width="73" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p3-mono" x="92.5" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">FastAPI</text></g><g class="p3-chip" style="animation-delay:1.12s"><rect x="137.5" y="314" width="66" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p3-mono" x="170.5" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">yt-dlp</text></g><g class="p3-chip" style="animation-delay:1.24s"><rect x="212" y="314" width="66" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p3-mono" x="245" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">FFmpeg</text></g><g class="p3-chip" style="animation-delay:1.36s"><rect x="286.5" y="314" width="59" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p3-mono" x="316" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">React</text></g><g class="p3-chip" style="animation-delay:1.48s"><rect x="354" y="314" width="94" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p3-mono" x="401" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">TypeScript</text></g><g class="p3-chip" style="animation-delay:1.60s"><rect x="456.5" y="314" width="66" height="26" rx="13" fill="#17171A" stroke="#8E8E98" stroke-opacity=".35"/><text class="p3-mono" x="489.5" y="331" text-anchor="middle" font-size="11.5" fill="#CFCFD6">Docker</text></g>
+    </g>
+    <g class="p3-in p3-d2"><g transform="translate(0 35)">
+      <g>
+        <rect x="760" y="50" width="250" height="38" rx="12" fill="#F4F4F6" fill-opacity=".07" stroke="#8E8E98" stroke-opacity=".3"/>
+        <text class="p3-mono" x="776" y="74" font-size="12" fill="#F4F4F6">“a YouTube link”</text>
+        <g transform="translate(760 112)">
+          <rect width="76" height="58" rx="9" fill="#17171A" stroke="#8E8E98" stroke-opacity=".3">
+            <animate attributeName="fill" values="#17171A;#5F5F68;#17171A;#17171A" keyTimes="0;.08;.2;1" dur="6s" begin="1.0s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-opacity" values=".3;1;.3;.3" keyTimes="0;.08;.2;1" dur="6s" begin="1.0s" repeatCount="indefinite"/>
+          </rect>
+          <text class="p3-mono" x="8" y="18" font-size="9" fill="#A9A9B1">01</text>
+          <text class="p3-mono" x="38" y="40" font-size="9.5" text-anchor="middle" fill="#F4F4F6">Extract</text>
+        </g>
+        <g transform="translate(844 112)">
+          <rect width="76" height="58" rx="9" fill="#17171A" stroke="#8E8E98" stroke-opacity=".3">
+            <animate attributeName="fill" values="#17171A;#5F5F68;#17171A;#17171A" keyTimes="0;.08;.2;1" dur="6s" begin="1.6s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-opacity" values=".3;1;.3;.3" keyTimes="0;.08;.2;1" dur="6s" begin="1.6s" repeatCount="indefinite"/>
+          </rect>
+          <text class="p3-mono" x="8" y="18" font-size="9" fill="#A9A9B1">02</text>
+          <text class="p3-mono" x="38" y="40" font-size="9.5" text-anchor="middle" fill="#F4F4F6">Select</text>
+        </g>
+        <g transform="translate(928 112)">
+          <rect width="76" height="58" rx="9" fill="#17171A" stroke="#8E8E98" stroke-opacity=".3">
+            <animate attributeName="fill" values="#17171A;#5F5F68;#17171A;#17171A" keyTimes="0;.08;.2;1" dur="6s" begin="2.2s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-opacity" values=".3;1;.3;.3" keyTimes="0;.08;.2;1" dur="6s" begin="2.2s" repeatCount="indefinite"/>
+          </rect>
+          <text class="p3-mono" x="8" y="18" font-size="9" fill="#A9A9B1">03</text>
+          <text class="p3-mono" x="38" y="40" font-size="9.5" text-anchor="middle" fill="#F4F4F6">Merge</text>
+        </g>
+        <g transform="translate(1012 112)">
+          <rect width="76" height="58" rx="9" fill="#17171A" stroke="#8E8E98" stroke-opacity=".3">
+            <animate attributeName="fill" values="#17171A;#5F5F68;#17171A;#17171A" keyTimes="0;.08;.2;1" dur="6s" begin="2.8s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-opacity" values=".3;1;.3;.3" keyTimes="0;.08;.2;1" dur="6s" begin="2.8s" repeatCount="indefinite"/>
+          </rect>
+          <text class="p3-mono" x="8" y="18" font-size="9" fill="#A9A9B1">04</text>
+          <text class="p3-mono" x="38" y="40" font-size="9.5" text-anchor="middle" fill="#F4F4F6">Stream</text>
+        </g>
+        <g transform="translate(1096 112)">
+          <rect width="76" height="58" rx="9" fill="#17171A" stroke="#8E8E98" stroke-opacity=".3">
+            <animate attributeName="fill" values="#17171A;#5F5F68;#17171A;#17171A" keyTimes="0;.08;.2;1" dur="6s" begin="3.4s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-opacity" values=".3;1;.3;.3" keyTimes="0;.08;.2;1" dur="6s" begin="3.4s" repeatCount="indefinite"/>
+          </rect>
+          <text class="p3-mono" x="8" y="18" font-size="9" fill="#A9A9B1">05</text>
+          <text class="p3-mono" x="38" y="40" font-size="9.5" text-anchor="middle" fill="#F4F4F6">Clean up</text>
+        </g>
+        <text class="p3-mono" x="1176" y="214" font-size="12" text-anchor="end" fill="#CFCFD6">video + audio → one merged file</text>
+        <text class="p3-mono" x="1176" y="240" font-size="10.5" text-anchor="end" letter-spacing="1.5" fill="#A9A9B1">YT-DLP · FFMPEG · FASTAPI</text>
+      </g>
+    </g></g>
+    <rect x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="#8E8E98" stroke-opacity=".2"/>
+    <rect class="p3-trace" style="animation-delay:-3.4s" x=".5" y=".5" width="1199" height="369" rx="17.5" fill="none" stroke="url(#p3-trace)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>

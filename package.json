@@ -1,0 +1,13 @@
+{
+  "name": "profile-readme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "contributions": "node scripts/fetch-contributions.mjs",
+    "snake": "node scripts/build-heatmap-svg.mjs"
+  }
+}
